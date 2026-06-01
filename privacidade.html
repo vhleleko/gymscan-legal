@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidade — Gym Scan AI</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0d0d0d;
+      color: #cccccc;
+      line-height: 1.7;
+      padding: 32px 16px 64px;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    h1 {
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      margin-bottom: 4px;
+    }
+    .subtitle {
+      color: #888;
+      font-size: 13px;
+      margin-bottom: 40px;
+    }
+    .section { margin-bottom: 32px; }
+    .section-title {
+      color: #e53935;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+    .section-body {
+      color: #aaaaaa;
+      font-size: 14px;
+      white-space: pre-wrap;
+    }
+    hr { border: none; border-top: 1px solid #222; margin: 12px 0 32px; }
+    a { color: #e53935; }
+    footer {
+      margin-top: 48px;
+      color: #555;
+      font-size: 12px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>POLÍTICA DE PRIVACIDADE</h1>
+    <div class="subtitle">Gym Scan AI — Última atualização: 31 de maio de 2026</div>
+    <hr>
+
+    <div class="section">
+      <div class="section-title">Introdução</div>
+      <div class="section-body">O Gym Scan AI ("aplicativo", "nós") é operado por Gym Scan AI Tecnologia LTDA, sediada no Brasil. Esta Política descreve como coletamos, usamos, armazenamos, compartilhamos e protegemos suas informações em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018 — LGPD) e com as diretrizes do Google Play e da Apple App Store.
+
+Ao usar o aplicativo, você consente expressamente com o tratamento descrito aqui. Você pode revogar esse consentimento a qualquer momento pelos canais indicados na seção 11.</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">1. Dados que coletamos</div>
+      <div class="section-body">Coletamos os seguintes dados, todos fornecidos diretamente por você:
+
+Dados de cadastro
+• E-mail e senha (senha em hash, nunca armazenada em texto)
+• Identificador único do dispositivo (UUID gerado localmente, sem PII)
+
+Dados de perfil e saúde
+• Nome, gênero, idade
+• Peso, altura, peso-alvo
+• Objetivo (hipertrofia, emagrecimento, manutenção etc.)
+• Nível de experiência, frequência semanal, horário preferido
+• Restrições alimentares e limitações físicas declaradas
+• Foto de perfil opcional
+
+Dados de uso
+• Histórico de treinos (exercícios, séries, repetições, cargas, duração, kcal)
+• Recordes pessoais (PRs)
+• Streak (sequência de dias treinados)
+• Hidratação registrada
+• Refeições registradas (Food Scan) e planos alimentares aceitos
+• Histórico de conversas com Coach IA e Nutri IA
+• Fotos de máquinas, refeições e execução enviadas para análise
+• Vídeos curtos de execução (até 60 s) enviados ao Coach IA
+
+Dados de comunidade (Squad)
+• Posts, fotos e comentários publicados em grupos privados
+• Lista de grupos a que você pertence
+
+Dados técnicos
+• Versão do app, sistema operacional e modelo do dispositivo (via Sentry, em caso de erro)
+• Logs de uso anonimizados
+
+Não coletamos: localização GPS, contatos do dispositivo, agenda, identificadores de propaganda persistentes além do necessário para exibir o banner do plano gratuito.</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">2. Bases legais (LGPD Art. 7º)</div>
+      <div class="section-body">Cada tratamento de dado se apoia em uma base legal específica:
+
+• Consentimento (Art. 7º, I): dados de saúde (peso, altura, idade, objetivo, restrições), envio de fotos para análise e participação no Squad. Você consente explicitamente no onboarding e ao aceitar os disclaimers do Coach IA e da Nutri IA.
+
+• Execução de contrato (Art. 7º, V): processamento de dados de cadastro, assinatura PRO e histórico de treinos — necessários para entregar as funcionalidades do aplicativo.
+
+• Legítimo interesse (Art. 7º, IX): coleta de logs de erro anonimizados para estabilidade do serviço, sem qualquer informação que permita identificar você.</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">3. Finalidades do tratamento</div>
+      <div class="section-body">Usamos seus dados exclusivamente para:
+
+• Identificar máquinas de academia em fotos enviadas
+• Personalizar recomendações do Coach IA e da Nutri IA com base no seu perfil, treinos recentes e objetivo
+• Calcular calorias, macros e necessidades metabólicas
+• Rastrear sua evolução, streak e PRs
+• Compartilhar conteúdo dentro dos grupos privados (Squad) que você criar ou aceitar entrar
+• Processar sua assinatura PRO via App Store ou Google Play
+• Exibir anúncios no plano gratuito
+• Diagnosticar erros e melhorar a estabilidade do app
+
+Nunca usamos seus dados para publicidade comportamental, perfilamento comercial ou venda a terceiros.</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">4. Armazenamento</div>
+      <div class="section-body">Armazenamos seus dados em duas camadas:
+
+No seu dispositivo (armazenamento local)
+• Histórico de treinos: SQLite criptografado pelo sistema operacional
+• Histórico de conversas com Coach IA e Nutri IA: armazenamento criptografado (Android Keystore / iOS Keychain)
+• Preferências de uso: SharedPreferences do dispositivo
+• UUID do dispositivo: Keychain/Keystore
+
+Em servidores (armazenamento remoto)
+• Conta, sessão de login, aceite de disclaimers, dados do Squad e códigos promocionais: Supabase Inc. (servidores em US-East-1, AWS)
+• Compras e entitlement PRO: RevenueCat Inc. (Estados Unidos)
+• Logs de erro anonimizados: Sentry GmbH (Alemanha/EUA)
+
+As fotos e vídeos enviados para análise são processados em tempo real pela Google Gemini API (via Cloudflare Worker, sem armazenamento permanente) e descartados imediatamente após a resposta.</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">5. Compartilhamento com terceiros</div>
+      <div class="section-body">Compartilhamos dados estritamente necessários com os seguintes processadores, todos sob contrato de proteção de dados:
+
+• Google LLC (Gemini API): recebe foto/vídeo + dados de perfil necessários para a análise (peso, altura, objetivo, histórico recente). Necessário para que Coach IA e Nutri IA gerem respostas personalizadas. Não usado para treinamento de modelos do Google.
+
+• Google LLC (Mobile Ads): exibe banners no plano gratuito. Pode coletar identificador de propaganda do dispositivo conforme política do Google.
+
+• Supabase Inc.: hospeda banco de dados, autenticação e armazenamento de fotos do Squad.
+
+• RevenueCat Inc.: intermedia assinaturas in-app, sem dados de cartão (processamento é feito por Apple/Google).
+
+• Sentry GmbH: recebe stack traces e versão do app em caso de crash. Nenhum dado de saúde ou pessoal é incluído nos eventos enviados.
+
+Nunca vendemos, alugamos ou cedemos seus dados a anunciantes, corretoras de dados ou intermediários sem sua autorização expressa.</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">6. Transferência internacional de dados</div>
+      <div class="section-body">Parte dos serviços que utilizamos opera fora do Brasil: Google (Estados Unidos), Supabase (Estados Unidos), RevenueCat (Estados Unidos), Sentry (Alemanha e Estados Unidos).
+
+Essa transferência ocorre nos termos do Art. 33 da LGPD, com base em (a) cláusulas contratuais padrão com cada operador e (b) seu consentimento expresso ao aceitar esta Política. Todos os parceiros mantêm padrões de segurança equivalentes ou superiores aos exigidos pela LGPD (SOC 2, ISO 27001).</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">7. Tempo de retenção</div>
+      <div class="section-body">• Conta ativa: enquanto sua conta existir.
+• Conta inativa por mais de 24 meses sem login: exclusão automática.
+• Após pedido de exclusão de conta: dados pessoais removidos em até 30 dias; dados de faturamento mantidos por 5 anos para cumprimento de obrigação fiscal (Art. 16, II da LGPD).
+• Logs de erro no Sentry: retenção máxima de 90 dias.
+• Fotos/vídeos enviados ao Coach IA / Nutri IA / Scanner: descartados imediatamente após a análise.</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">8. Assinatura PRO, trial e renovação</div>
+      <div class="section-body">O plano PRO oferece 7 dias de teste gratuito quando assinado pela primeira vez. Após esse período, a cobrança da modalidade escolhida (mensal R$ 29,90, semestral R$ 26,90/mês ou anual R$ 21,90/mês) é feita automaticamente pela Apple App Store ou Google Play.
+
+A renovação é automática ao fim de cada ciclo, salvo cancelamento. Você pode cancelar a qualquer momento diretamente nas configurações da App Store (Assinaturas) ou Google Play (Pagamentos e assinaturas). O cancelamento entra em vigor ao fim do ciclo já pago — não há reembolso proporcional, conforme política das respectivas lojas.
+
+Não armazenamos dados de cartão de crédito; todo o pagamento é tratado pela Apple ou Google.</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">9. Comunidade (Squad) — direitos sobre conteúdo</div>
+      <div class="section-body">Ao publicar fotos, comentários ou posts em um grupo do Squad, você:
+
+• Mantém integralmente os direitos autorais do conteúdo.
+• Concede ao Gym Scan AI uma licença gratuita, não exclusiva e limitada para armazenar e exibir o conteúdo dentro do grupo específico em que foi publicado.
+• Pode remover o conteúdo a qualquer momento — a remoção é definitiva nos nossos sistemas em até 7 dias.
+
+É proibida a publicação de: conteúdo sexual, violência explícita, discurso de ódio, dados pessoais de terceiros sem consentimento, conteúdo comercial não autorizado. Violações resultam em remoção do conteúdo e podem levar à suspensão da conta.</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">10. Crianças e adolescentes</div>
+      <div class="section-body">O Gym Scan AI é destinado a maiores de 13 anos. Usuários entre 13 e 18 anos devem ter consentimento dos responsáveis legais para usar o app, conforme Art. 14 da LGPD. Se você é responsável legal e identificou que um menor de 13 anos criou conta, escreva para dpo@gymscan.com.br para exclusão imediata.</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">11. Seus direitos (LGPD Art. 18)</div>
+      <div class="section-body">Você tem direito a:
+
+• Confirmar se tratamos seus dados
+• Acessar uma cópia completa dos seus dados
+• Corrigir dados incompletos ou desatualizados (pelo próprio app)
+• Solicitar a anonimização, bloqueio ou eliminação de dados desnecessários
+• Solicitar a portabilidade dos dados para outro serviço
+• Revogar consentimento a qualquer tempo
+• Reclamar à ANPD (gov.br/anpd)
+
+A exclusão completa da conta apaga: perfil, treinos, PRs, histórico de chat, posts do Squad e fotos. Para fazer, vá em Perfil → Excluir conta, ou escreva para dpo@gymscan.com.br. Atenderemos em até 15 dias.</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">12. Segurança</div>
+      <div class="section-body">Aplicamos as seguintes medidas técnicas:
+
+• Transmissão sempre por HTTPS/TLS 1.2+
+• Tráfego HTTP em texto puro bloqueado no app
+• Histórico de chat e UUID do dispositivo em armazenamento criptografado (Keystore/Keychain)
+• Senhas armazenadas em hash pelo provedor de autenticação (Supabase)
+• Row-Level Security (RLS) em todas as tabelas do banco
+• Rate-limiting no proxy de IA para evitar abuso
+• Backup do dispositivo desabilitado — impede exposição via ADB backup
+
+Em caso de incidente de segurança que possa afetar você, comunicaremos pelo e-mail cadastrado e à ANPD em até 72 horas, conforme Art. 48 da LGPD.</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">13. Encarregado pelo Tratamento de Dados (DPO)</div>
+      <div class="section-body">Em conformidade com o Art. 41 da LGPD:
+
+E-mail: dpo@gymscan.com.br
+Prazo de resposta: até 15 dias úteis para solicitações dos titulares.</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">14. Alterações nesta Política</div>
+      <div class="section-body">Esta Política pode ser revisada. Mudanças materiais serão comunicadas no app antes de entrarem em vigor. A versão sempre vigente fica nesta página.</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">15. Contato</div>
+      <div class="section-body">Suporte geral: gymscan.app@gmail.com
+Encarregado (DPO) / LGPD: dpo@gymscan.com.br</div>
+    </div>
+
+    <footer>
+      © 2026 Gym Scan AI — Todos os direitos reservados
+    </footer>
+  </div>
+</body>
+</html>
